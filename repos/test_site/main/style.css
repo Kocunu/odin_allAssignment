@@ -1,0 +1,79 @@
+body {
+  background: #202124; 
+}
+
+.logo {
+  width:280px;
+  height:auto;
+  top:20%;
+  left:41%;
+  position: absolute;
+  color:#bdc1c6;
+}
+#gmail {
+  font-family:"Arial";
+  float:right;
+  font-size:15px;
+  color:white;
+  padding:5px;
+}
+
+#bilder {
+  font-family:"Arial";
+  font-size:15px;
+  color:white;
+  float:right;
+  padding:5px;
+}
+
+input {
+  background: transparent;
+  position: absolute;
+  left:33%;
+  top: 37%;
+  height:28px;
+  width:520px;
+  border-style: solid;
+  border-width:0.5px;
+  border-radius: 25px;
+  border-color:#C6C6C6;
+  color:white;
+  padding:7px;
+}
+
+#gluk {
+
+  left:50%;
+}
+
+.mic {
+  height:25px;
+  width:auto;
+  position:absolute;
+  top:38%;
+  left:65%;
+}
+
+.lupe {
+  position:absolute;
+  height:40px;
+  width: auto;
+  top:37%;
+  left: 66%;
+}
+
+.suche{
+  position:absolute;
+  top:47%;
+  left:41%;
+  height:35px;
+  width:130px;
+  background-color:#C6C6C6;
+  border-style:solid;
+  border-color:#202124;
+  border-radius:5px;
+}
+
+.suche:hover {
+  background-color:red;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class = "CalcBody">
+     <div class = "inputField">
+     <input type = "text" id = "numberField"readonly> </input>
+       <button id = "inputAC" onclick = reset()>AC</button>
+       <button id = "inputRout" >#</button>
+       <button id = "inputPercent" >%</button>
+       <button id = "inputDiv" onclick = divide>/</button>
+       <button id = "inputSeven" onclick = append("7")>7</button>
+       <button id = "inputEight" onclick = append("8")>8</button>
+       <button id = "inputNine" onclick = append("9")>9</button>
+       <button id = "inputMultiply" onclick = mult()>*</button>
+       <button id = "inputFour" onclick = append("4")>4</button>
+       <button id = "inputFive" onclick = append("5")>5</button>
+       <button id = "inputSix" onclick = append("6")>6</button>     
+       <button id = "inputSub" onclick = sub()>-</butt  on>
+       <button id = "inputOne" onclick = append("1")>1</button>
+       <button id = "inputTwo" onclick = append("2")>2</button>
+       <button id = "inputThree" onclick = append("3")>3</button>
+       <button id = "inputAdd" onclick = add()>+</button>
+       <button id = "inputZero" onclick = append("0")>0</button>
+       <button id = "inputComma">,</button>
+       <button id = "inputSum" onclick = sum()>=</button>
+     </div> 
+    </div>
+    <script src = "script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,43 @@
+body {
+  display:flex;
+  justify-content:center;
+  margin-top:20%;
+}
+
+.CalcBody {
+  background-color:#494D5F;
+  width:300px;
+  height:350px;
+  border-radius:10px;
+}
+
+.inputField {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  flex: 1 1 auto;
+  gap:30px;
+  border-radius:10px;
+}
+
+.inputField > * {
+  background-color:#AAAAAA;
+  width:50px;
+  height:auto;
+  display:flex;
+  margin-bottom:-5px;
+  justify-content:center;
+  border-radius:10px;
+}
+
+.inputField > #inputZero {
+  width:130px;
+} 
+
+#numberField {
+  width:300px;
+  height:100px;
+  background:#DDDDDD;
+  text-align:right;
+  border-radius:10px;
+}
